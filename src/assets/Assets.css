@@ -1,0 +1,51 @@
+img{
+    width: 4rem;
+    height: 4rem;
+}
+button{
+    background-color: rgb(125, 19, 160);
+    margin: 2rem;
+    border-radius: 0.4rem;
+    padding: 0.4rem;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px rgb(56, 56, 56);
+    
+}
+button:hover{
+    background-color: #FEC861;
+    color: white;
+    transition:ease-in-out 0.3s;
+
+}
+.card-container{
+border: 5px solid rgb(56, 56, 56);
+padding: 2rem;
+width: 30rem;
+border-radius: 0.4rem;
+background-color: rgb(180, 180, 219) ;
+margin-top: 2rem;
+}
+.mainDiv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.profilePhoto{
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+    border: 2px solid black;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    margin-top: 2rem;
+}
